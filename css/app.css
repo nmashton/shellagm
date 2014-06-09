@@ -1,0 +1,174 @@
+/* **General** */
+
+a {
+  color: #00B454;
+}
+
+.highlight {
+  color: #00B454;
+}
+
+.main-video {
+  height: 485px;
+  background:white;
+}
+
+.owl-wrapper-outer {
+  float: left;
+}
+
+.owl-pagination {
+  text-align: left;
+}
+.owl-buttons {
+  text-align: left;
+}
+
+/* Arrangement of items and content dividers */
+div.item {
+  width: 900px;
+  height: 400px;
+  display: table;
+}
+
+div.graphic {
+  display: table-cell;
+  width: 400px;
+  height: 400px;
+}
+
+.graphic svg {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+div.right-side {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.sidetext {
+  display: table;
+}
+
+div.inner-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Text within "inner text" divs */
+.inner-text p {
+  font-family: "klavika-web-condensed", "sans serif";
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 27px;
+  color: grey;
+  width: 600px;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* "Punchline" text, hidden by default */
+.punchline {
+  opacity: 0;
+}
+
+/* The "side text" divider */
+div.sidetext {
+  width: 450px;
+  height: 400px;
+  display:table-cell;
+  margin-left: 15px;
+}
+
+/* The region at the bottom of the sidetext */
+.sidetext .sidetext-bottom {
+  display:table-row;
+  height: 20px;
+}
+
+.sidetext-bottom {
+  vertical-align: bottom;
+}
+
+/* The "key" for graphics that have icons */
+div.key {
+  display:table;
+  font-family: "klavika-web-condensed", "sans serif";
+  font-size: 14px;
+  color: grey;
+  fill: grey;
+  text-transform: uppercase;
+}
+
+.key p {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/* The main body of the side text */
+.sidetext .sidetext-middle {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.sidetext-middle p {
+  font-family: "klavika-web-condensed", "sans serif";
+  text-transform: uppercase;
+  width: 400px;
+  font-size: 34px;
+  line-height: 27px;
+  color: grey;
+
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
+/* Intro slide */
+#intro-counter {
+  text-align: left;
+  font-size: 108px;
+  color: #00B454;
+  font-family: "klavika-web-condensed", "sans serif";
+  text-transform: uppercase;
+  line-height: 100px;
+}
+
+.odometer {
+  margin-top:-5px;
+}
+
+/* Conclusion slide */
+
+#conclusion-text p {
+  width: 100%;
+  font-size: 3.5em;
+  line-height: .8;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+
+/* Money slide fiddling */
+
+#money-text p {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+
+/* Colors for caption text */
+
+.health {
+  color: #FF3900 ;
+}
+
+.education {
+  color: #FFBB00 ;
+}
